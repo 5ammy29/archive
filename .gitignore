@@ -3,6 +3,10 @@ __pycache__/
 *.pyo
 *.pyd
 *.dysm
+*.o
+*.obj
+*.exe
+*.out
 .DS_Store
 .vscode/
 .pytest_cache/
