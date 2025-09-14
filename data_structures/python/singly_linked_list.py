@@ -56,7 +56,7 @@ class SinglyLinkedList:
         prev.next = None
         return val
     
-    def delete(self, index: int) -> None:     # O(n)
+    def delete(self, index: int) -> None:     # O(index)
         if index < 0 or not self.head:
             return None
         if index == 0:
